@@ -47,5 +47,5 @@ def step_impl(context, message):
     flash = driver.find_element(By.CSS_SELECTOR, "#flash")
     print("------Expected: ", message)
     print("--------Actual: ", flash.text)
-    assert flash.text in message
+    assert flash.text == message
 
