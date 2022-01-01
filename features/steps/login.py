@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
+from selenium.webdriver.common.keys import Keys
 
 @given(u'I am on the {page} page')
 def step_impl(context, page):

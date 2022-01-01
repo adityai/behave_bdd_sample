@@ -1,3 +1,4 @@
 behave
 selenium
 beautifulsoup4
+sauceclient
