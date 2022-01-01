@@ -17,7 +17,8 @@ Selenium webdriver example
 
 ### TODO: Sample to parse html using beautifulsoup4
 
-### TODO: Execute using selenium hub
+### Execute using selenium hub
+Added environment.py to setup driver globally for all tests to run locally or from selenium hub
 
 ### TODO: Execute using SauceLabs
 
